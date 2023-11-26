@@ -7,6 +7,10 @@ public class PersonBuilder {
         return person;
     }
 
+    public PersonBuilder setName(String name) {
+        person.name = name;
+        return this;
+    }
     public PersonBuilder setLastname(String lastname) {
         person.lastname = lastname;
         return this;
